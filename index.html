@@ -128,9 +128,10 @@
                     <div class="section-inner">
                         <h2 class="heading">Summer Science Program Projects</h2>
                         <img class="profile-image img-responsive pull-left" src="martinnoah26.github.io/img/Noah.JPG" alt="James Lee" width="700" height="300"/>
-                        <div id="chartcontainer"><script type="text/javascript">
-	var myChart = new JSChart('chartcontainer', 'bar');
-	myChart.setDataXML('data.xml');
+                      <div id="chartcontainer"><script type="text/javascript">
+	var myData = new Array([10, 20], [15, 10], [20, 30], [25, 10], [30, 5]);
+	var myChart = new JSChart('chartcontainer', 'line');
+	myChart.setDataArray(myData);
 	myChart.draw();
 </script></div>
                         
